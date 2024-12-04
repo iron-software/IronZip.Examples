@@ -1,0 +1,5 @@
+***Based on <https://ironsoftware.com/examples/password-protect-zip/>***
+
+Adding a password to a ZIP archive is a security measure that ensures only those with the correct password can access the files contained within. Implementing a password effectively encrypts the contents of the archive, safeguarding against unauthorized access. When someone needs to access a file from a secured ZIP archive, they must input the correct password to successfully extract the files.
+
+Begin by either creating a new ZIP file or opening an existing one. Within the context of a `using` statement, utilize the `Encrypt` method to enforce a password protection. The `Encrypt` method accommodates simple passwords compatible with the Windows built-in extractor. For a higher level of security, the method also offers encryption options like **AES128** and **AES256**. Note, however, that archives encrypted with these standards cannot be opened using the Windows built-in extractor and will require specialized software like WinRar or 7Zip.

@@ -1,0 +1,5 @@
+***Based on <https://ironsoftware.com/examples/create-tar/>***
+
+TAR, an acronym for '*T*ape *Ar*chive,' represents a file archiving protocol and tool utilized primarily on Unix and Linux platforms. It aggregates several files and directories into a singular archive while retaining the original file system structure and metadata, though it doesn't compress them. Often, TAR is paired with compression tools such as gzip or bzip2, creating compressed archive files that are frequently used for software deployment and data backup tasks.
+
+To initiate the creation of an empty TAR file, instantiate the **IronTarArchive** class. You can populate the TAR file by invoking the `Add` method, which allows you to include individual files or even an entire directory's contents into the resulting archive. Complete the process by employing the `SaveAs` method, where you will specify the location and name for the saved TAR file.
