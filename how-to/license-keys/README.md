@@ -1,136 +1,106 @@
-# Using IronZip License Keys
+# Utilizing IronZip License Keys
 
 ***Based on <https://ironsoftware.com/how-to/license-keys/>***
 
 
-## How to Acquire a License Key
+## Obtaining a License Key
 
-Activating an IronZip license key enables unrestricted deployment of your project, free from watermarks or limitations.
+Incorporating an IronZip license key enables you to run your project live free from any limitations or watermark impositions.
 
-You can [purchase a license here](https://ironsoftware.com/csharp/zip/licensing/) or obtain a [free 30-day trial key here](https://ironsoftware.com/csharp/zip/trial-license).
+You can [purchase a license here](https://ironsoftware.com/csharp/zip/licensing/) or register for a [free 30-day trial key](trial-license).
 
 --------------------------------------------------------------------------------
 
-## Step 1: Obtain the Latest IronZip Version
+## Step 1: Acquire the Latest IronZip Version
 
 ## Step 2: Implement Your License Key
 
-### Implementing the license through code
+### Setting the license via code
 
-Incorporate this code at the beginning of your application, prior to utilizing IronZip.
+Include this code at the beginning of your application, prior to utilizing IronZip.
 
 ```csharp
-using IronZip;
-namespace ironzip.Licensing
-{
-    public class SetupLicense
-    {
-        public void Initialize()
-        {
-            IronZip.License.LicenseKey = "YOUR-LICENSE-KEY-HERE";
-        }
-    }
-}
+IronZip.License.LicenseKey = "IRONZIP.MYLICENSE.KEY.1EF01";
 ```
 
 --------------------------------------------------------------------------------
 
-### Applying your license in Web.Config or App.Config
+### Implementing the license through Web.Config or App.Config
 
-For global license application using Web.Config or App.Config, insert the following entry in your configuration file under appSettings:
+For a broad application of your key using Web.Config or App.Config, insert the following entry into your configuration file under appSettings.
 
 ```xml
 <configuration>
 ...
   <appSettings>
-    <add key="IronZip.LicenseKey" value="YOUR-LICENSE-KEY-HERE"/>
+    <add key="IronZip.LicenseKey" value="IRONZIP.MYLICENSE.KEY.1EF01"/>
   </appSettings>
 ...
 </configuration>
 ```
 
-Please be aware of a licensing problem with versions of IronZip released prior to [2024.3.3](https://www.nuget.org/packages/IronZIP/2024.3.3) in:
+Be aware of a licensing issue with IronZip versions prior to [2024.3.3](https://www.nuget.org/packages/IronZIP/2024.3.3) concerning:
 - **ASP.NET** projects
 - **.NET Framework version >= 4.6.2**
 
-Licenses stored in `Web.config` might not be recognized. Refer to our [guide on setting a license key in Web.config](https://ironsoftware.com/csharp/zip/troubleshooting/license-key-web.config) for more information.
+For this problem, the `Web.config` key is **NOT** utilized by the software. Consult the '[Resolving License Key Issues in Web.config](https://ironsoftware.com/csharp/zip/troubleshooting/license-key-web.config/)' guide for further details.
 
-Check that `IronZip.License.IsLicensed` returns `true` to confirm licensing status.
+Check that `IronZip.License.IsLicensed` evaluates to `true` to confirm license application.
 
 --------------------------------------------------------------------------------
 
-### Setting the license key using a .NET Core appsettings.json file
+### Setting your license key via a .NET Core appsettings.json file
 
-To set a global license in a .NET Core application:
+To globally apply your key in a .NET Core environment:
 
-- Add an `appsettings.json` file at the root of your project.
-- Include a 'IronZip.LicenseKey' key in your JSON configuration file. The value should be your license key.
-- Ensure the file property is set to _Copy to Output Directory: Copy always_.
+- Insert a JSON file named appsettings.json in your project's root directory.
+- Insert the 'IronZip.LicenseKey' in your JSON configuration file, setting it to your license key.
+- Set the file property _Copy to Output Directory_ to _Copy always_.
 
 File: _appsettings.json_
 
 ```json
 {
-    "IronZip.LicenseKey":"YOUR-LICENSE-KEY-HERE"
+    "IronZip.LicenseKey":"IRONZIP.MYLICENSE.KEY.1EF01"
 }
 ```
 
 --------------------------------------------------------------------------------
 
-## Step 3: Confirming Your License Key
+## Step 3: Confirm Your License Key
 
-### Confirm the Installed License Key
+### Checking the Installed License Key
 
-To check if the license key is active, utilize the **IsLicensed** property with the following code:
+To confirm the license key installation, check the `IsLicensed` attribute using this code snippet:
 
 ```csharp
-using IronZip;
-namespace ironzip.Licensing
-{
-    public class VerifyLicense
-    {
-        public void Execute()
-        {
-            // Verify if the license key is successfully applied
-            bool licensed = IronZip.License.IsLicensed;
-        }
-    }
-}
+// Confirm the license application
+bool licensed = IronZip.License.IsLicensed;
 ```
 
-### Validate the License Key
+### Validating the License Key
 
-To verify the authenticity of your license or trial key, use this code snippet:
+To verify your license's or trial key's validity, employ this code snippet:
 
 ```csharp
-using IronZip;
-namespace ironzip.Licensing
-{
-    public class ValidateLicense
-    {
-        public void Execute()
-        {
-            // Validate the provided license key string
-            bool valid = IronZip.License.IsValidLicense("YOUR-LICENSE-KEY-HERE");
-        }
-    }
-}
+// Validate the specified license key
+bool valid = IronZip.License.IsValidLicense("IRONZIP.MYLICENSE.KEY.1EF01");
 ```
 
-If `valid` is **True**, the key is legitimate and you can proceed with using IronZIP. If it's **False**, the key is incorrect.
+If the returned value is **True**, your key is valid and you are set to use IronZIP. Conversely, a **False** return signifies an invalid key.
 
 --------------------------------------------------------------------------------
 
-## Step 4: Getting Started with Your Project
+## Step 4: Launching Your Project with IronZIP
 
-To begin with IronZIP, it's recommended to follow our detailed tutorial on [how to Get Started with IronZip](https://ironsoftware.com/csharp/zip/docs/). This tutorial provides comprehensive instructions and examples for understanding the essentials of IronZip.
+To begin with IronZIP, we strongly suggest following our detailed tutorial on how to [Get Started with IronZip](https://ironsoftware.com/csharp/zip/docs/). This tutorial provides comprehensive instruction and examples enhancing your understanding of IronZip operations.
 
 --------------------------------------------------------------------------------
 
-## Questions or Require Support?
+## Questions or Require Assistance?
 
-For deploying IronZip in your live projects, a paid or trial license key is necessary, available through [purchasing a license](https://ironsoftware.com/csharp/zip/licensing/) or [visiting this trial link](https://ironsoftware.com/csharp/zip/trial-license).
+When deploying IronZip in live projects, obtaining a paid or trial license key is necessary and is available through [purchasing a license](https://ironsoftware.com/csharp/zip/licensing/) or by visiting [this page for a trial license](trial-license).
 
-Explore a variety of code examples, tutorials, licensing information, and detailed documentation on our [IronZIP webpage](https://ironsoftware.com/csharp/zip/).
+For a wealth of code examples, tutorials, licensing information, and detailed documentation, refer to the [IronZIP section](https://ironsoftware.com/csharp/zip/) on our website.
 
-For any inquiries, please contact <support@ironsoftware.com>.
+For further inquiries, please contact <support@ironsoftware.com>.

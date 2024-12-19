@@ -1,9 +1,9 @@
 using IronZip;
-namespace ironzip.Quickstart
+namespace IronZip.Examples.Overview.Quickstart
 {
-    public class Section4
+    public static class Section4
     {
-        public void Run()
+        public static void Run()
         {
             // Open existing ZIP
             using (var archive = new IronZipArchive("existing.zip"))

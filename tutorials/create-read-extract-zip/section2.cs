@@ -1,9 +1,9 @@
 using IronZip;
-namespace ironzip.CreateReadExtractZip
+namespace IronZip.Examples.Tutorial.CreateReadExtractZip
 {
-    public class Section2
+    public static class Section2
     {
-        public void Run()
+        public static void Run()
         {
             // Extract ZIP
             IronZipArchive.ExtractArchiveToDirectory("output.zip", "extracted");

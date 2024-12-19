@@ -1,5 +1,5 @@
 ***Based on <https://ironsoftware.com/examples/access-protected-zip/>***
 
-To work with a ZIP file that is secured by a password, it's necessary to unlock, extract, or manage the data within the ZIP file by using the correct password. This enables decryption of the ZIP file, allowing one to view, extract, or alter the contents.
+Working with a ZIP archive that is safeguarded by a password requires you to decrypt the ZIP by supplying the proper password. This is essential to view, extract, or alter the contents housed within the encrypted ZIP file.
 
-When using IronZIP to handle a password-protected ZIP archive, you must provide the password as the second argument while supplying the ZIP file's path to the constructor. With this setup, you can browse the files within the archive or include additional files to the archive, then create and export a new ZIP file.
+When you use IronZIP to manage a password-protected ZIP archive, you'll begin by providing the password as the second argument when you instantiate a new ZIP file object with its path. This allows you to access the contents, add additional files to the archive, and eventually produce a new ZIP file containing your updates.

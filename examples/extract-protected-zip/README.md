@@ -1,5 +1,5 @@
 ***Based on <https://ironsoftware.com/examples/extract-protected-zip/>***
 
-Employ IronZIP to unpack encrypted ZIP archives, including those secured with normal, AES128, and AES256 encryption.
+Use IronZIP to handle encrypted ZIP files including those secured with standard, AES128, and AES256 encryption methods.
 
-To accomplish the extraction of a secured ZIP file, it's essential to provide the accurate password for the **Password** parameter within the `ExtractArchiveToDirectory` method. You should also define the ZIP file's path and the destination directory where the contents will be extracted.
+When you need to unpack a password-protected ZIP archive, use the `ExtractArchiveToDirectory` method. Here, you must provide the correct password in the **Password** parameter. Moreover, you should determine the path of the ZIP file and designate the target directory where the contents will be extracted.

@@ -1,7 +1,7 @@
 ***Based on <https://ironsoftware.com/examples/create-gzip/>***
 
-GZIP, often referred to as 'GNU Zip,' serves as a file compression utility prevalent in Unix and Linux environments. It leverages the GZIP compression algorithm to diminish file sizes, enabling more efficient storage and swifter data transmission. Files compressed using GZIP are marked by a '.gz' extension and can be restored to their original form with ease.
+GZIP, an abbreviation for 'GNU Zip,' is a compression tool utilized primarily in Unix and Linux environments. This utility compresses files to minimize their size for more efficient storage and quicker data transfer, implementing the GZIP compression method. The files compressed by GZIP have a `.gz` extension and can be restored to their original condition seamlessly.
 
-Typically, GZIP is employed to compress single files. A regular approach involves grouping several files into a single TAR archive, followed by compressing this archive using GZIP. The associated file gets extensions like `.tar.gz` or `.tgz`.
+It is standard practice to use GZIP for compressing single files. Often, multiple files are combined into one TAR archive before being compressed with GZIP. The files that undergo this double compression have file names ending in `.tar.gz` or `.tgz`.
 
-In the snippet provided, the **IronGZipArchive** class is initialized within a `using` block. Employ the `Add` method to incorporate the TAR file into the GZIP archive. To finalize and store the compressed file, use the `SaveAs` method.
+In the example provided, you can initialize the `IronGZipArchive` class through the `using` statement. To add files into the GZIP archive, utilize the `Add` method for the TAR file. Finally, employ the `SaveAs` method to output the compressed GZIP file.

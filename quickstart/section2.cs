@@ -1,9 +1,9 @@
 using IronZip;
-namespace ironzip.Quickstart
+namespace IronZip.Examples.Overview.Quickstart
 {
-    public class Section2
+    public static class Section2
     {
-        public void Run()
+        public static void Run()
         {
             // Create an empty ZIP
             using (var archive = new IronZipArchive())

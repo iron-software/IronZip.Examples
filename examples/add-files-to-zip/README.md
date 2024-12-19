@@ -1,5 +1,5 @@
 ***Based on <https://ironsoftware.com/examples/add-files-to-zip/>***
 
-IronZIP provides features that allow users to alter an already existing ZIP archive. Start by utilizing the `FromFile` method to open the ZIP file you wish to edit. Once the archive is open, you can employ the `Add` method to append new files to it. Finally, save the updated version of the ZIP file using the `SaveAs` method.
+IronZIP provides the functionality to edit an existing ZIP file. Start by employing the `FromFile` method to load the archive that requires modification. Once the archive is loaded, the `Add` method can be utilized to insert additional files into the archive. To finalize changes, the `SaveAs` method allows you to save the updated ZIP file.
 
-This functionality facilitates the seamless updating and enlargement of ZIP archives to meet the evolving needs of your projects. IronZIP streamlines the management of archives within your C# applications.
+This capability makes it straightforward to adapt and enhance your ZIP archives in line with the evolving needs of your project. IronZIP streamlines the process of managing archives in your C# applications.

@@ -1,9 +1,9 @@
 using IronZip;
-namespace ironzip.Quickstart
+namespace IronZip.Examples.Overview.Quickstart
 {
-    public class Section1
+    public static class Section1
     {
-        public void Run()
+        public static void Run()
         {
             IronZip.License.LicenseKey = "IRONZIP.MYLICENSE.KEY.1EF01";
         }
