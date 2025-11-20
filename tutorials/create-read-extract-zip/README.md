@@ -1,71 +1,75 @@
-# Tutorial on Creating, Reading, and Extracting Zip Files
+# Create, Read, and Extract Zip Tutorial
 
 ***Based on <https://ironsoftware.com/tutorials/create-read-extract-zip/>***
 
 
-Creating a ZIP involves generating a new archive by selecting certain files or directories, applying compression preferences, and constructing the archive.
+Creating a ZIP involves generating a new ZIP archive by selecting files or directories, defining compression settings, and finalizing the archive creation.
 
-Reading a ZIP involves opening an existing archive to access, view, or extract specific contents.
+Reading a ZIP provides access to the contents of an existing ZIP archive, allowing for file viewing or selective extraction.
 
-Extracting from a ZIP entails choosing the source ZIP file, defining the destination folder, and pulling files and directories into the appointed location.
+Extracting from a ZIP consists of pulling out files by determining the source ZIP file, designating a destination folder, and moving files and directories to the intended location.
 
-IronZip extends these capabilities by allowing users to open an existing ZIP, append additional files, and save the modifications in a new ZIP archive.
+IronZip further enhances these capabilities by allowing users to open and add additional files to an existing ZIP and then save it as a new ZIP that includes all the adjusted content.
 
-<h3>Getting Started with IronZIP</h3>
+<h3>Get Started with IronZIP</h3>
 
----
+!!!--LIBRARY_START_TRIAL_BLOCK--!!!
 
-## Example: Creating an Archive
+-----
 
-Begin by creating a ZIP archive object in C#. This can be done neatly using a `using` statement along with the **IronZipArchive** constructor. IronZip facilitates the creation of a new, empty ZIP archive through simple code.
+## Example of Creating an Archive
 
-Subsequently, employ the `Add` method to incorporate files into your archive. This method is capable of adding files from wide-ranging sources, including whole directories.
+To initiate a ZIP archive object in C#, apply the `using` statement with the `IronZipArchive` constructor. IronZip offers a streamlined method to construct an empty ZIP archive effortlessly.
 
-Conclude by using the `SaveAs` method to finalize and store your ZIP file.
+Following that step, use the `Add` method to load files into the ZIP archive from various sources, including entire directories.
 
-```cs
+Conclude with the `SaveAs` method to finalize and export the ZIP archive.
+
+```csharp
 using IronZip;
 
-// Instantiate an empty ZIP archive
+// Initialize an empty ZIP
 using (var archive = new IronZipArchive())
 {
-    // Adding files to the archive
-    archive.Add("https://ironsoftware.com/assets/image1.png");
-    archive.Add("https://ironsoftware.com/assets/image2.png");
+    // Include files in the ZIP
+    archive.Add("./assets/image1.png");
+    archive.Add("./assets/image2.png");
 
-    // Saving the ZIP archive
+    // Complete the ZIP file creation
     archive.SaveAs("output.zip");
 }
 ```
 
-## Example: Extracting an Archive to a Folder
+## Extract an Archive to a Folder
 
-To extract files from a ZIP archive, utilize the `ExtractArchiveToDirectory` method. Specify the ZIP file and the target directory for the incoming files.
+To extract files from a ZIP archive, utilize the `ExtractArchiveToDirectory` method. Just provide the ZIP file path and the destination directory for the extracted contents.
 
-```cs
+```csharp
 using IronZip;
 
-// Extract files from a ZIP
+// Unzip the archive
 IronZipArchive.ExtractArchiveToDirectory("output.zip", "extracted");
 ```
 
-## Example: Adding Files to an Existing Archive
+## Enhance an Existing Archive with Additional Files
 
-Efficiently add to an existing ZIP by first accessing it through its file path, and then using the `Add` method to include additional files within.
+You can easily augment an existing ZIP archive by adding new files using IronZip. Begin by loading the ZIP archive from a file, then employ the `Add` method to include new files.
 
-```cs
+```csharp
 using IronZip;
 
 // Access an existing ZIP
 using (var archive = IronZipArchive.FromFile("existing.zip"))
 {
-    // Append new files to the archive
-    archive.Add("https://ironsoftware.com/assets/image3.png");
-    archive.Add("https://ironsoftware.com/assets/image4.png");
+    // Insert more files
+    archive.Add("./assets/image3.png");
+    archive.Add("./assets/image4.png");
 
-    // Re-save the modified ZIP
+    // Update the ZIP archive
     archive.SaveAs("result.zip");
 }
 ```
 
-This capability to modify and expand ZIP archives makes IronZip a versatile tool for managing file archives in your C# applications. IronZip simplifies the handling of archive formats such as TAR, GZIP, and BZIP2 with similar class structures like **IronTarArchive**, **IronGZipArchive**, and **IronBZip2Archive**.
+IronZip simplifies the process of managing and updating ZIP archives in your C# projects, accommodating the dynamic needs of any project.
+
+IronZip's methodology is also applicable to handling other archive types like TAR, GZIP, and BZIP2 through the use of the `IronTarArchive`, `IronGZipArchive`, and `IronBZip2Archive` classes respectively.

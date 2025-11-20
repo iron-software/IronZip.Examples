@@ -5,7 +5,8 @@ namespace IronZip.Examples.Overview.Quickstart
     {
         public static void Run()
         {
-            IronZip.License.LicenseKey = "IRONZIP.MYLICENSE.KEY.1EF01";
+            // Apply your license key here
+            IronZip.License.LicenseKey = "YOUR_LICENSE_KEY";
         }
     }
 }
