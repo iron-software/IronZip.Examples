@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/create-bzip2/>***
+> Full guide: [Create bzip2](https://ironsoftware.com/csharp/zip/examples/create-bzip2/)
 
 BZIP2, abbreviated from 'Burrows-Wheeler Block Sort Text Compressor,' serves as a compression tool within Unix and Linux environments. It adeptly reduces file sizes through the BZIP2 compression algorithm, typically generating '.bz2' extension files. Its superior compression capability makes it a preferred choice for distributing software and archiving data.
 

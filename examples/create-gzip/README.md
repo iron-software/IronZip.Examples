@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/create-gzip/>***
+> Full guide: [Create gzip](https://ironsoftware.com/csharp/zip/examples/create-gzip/)
 
 GZIP, known fully as 'GNU Zip,' is a critical file compression tool primarily used in Unix and Linux environments. This utility greatly reduces the size of files for enhanced storage and improved data transfer speeds through the use of the GZIP compression algorithm. Files compressed with this method are typically tagged with a '.gz' extension and can be easily decompressed to revert to their initial format.
 

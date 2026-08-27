@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/add-files-to-tar/>***
+> Full guide: [Add files to tar](https://ironsoftware.com/csharp/zip/examples/add-files-to-tar/)
 
 Many find the usual process of adding new files to existing TAR archives cumbersome. Typically, you must extract the entire contents, add new files, and recompress everything into a new archive. This method is not only tedious but can also consume a significant amount of time, particularly when managing multiple TAR files.
 

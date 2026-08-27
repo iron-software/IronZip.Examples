@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/view-archive-entries/>***
+> Full guide: [View archive entries](https://ironsoftware.com/csharp/zip/examples/view-archive-entries/)
 
 When working with archive files, developers often find it beneficial to inspect archive contents without fully extracting them first. This is particularly useful when simply confirming the presence of specific entries, as full extraction can sometimes be resource-intensive. IronZIP provides capabilities that allow you to preview the contents inside an archive, which enhances efficiency and enables quick verification and inspection of files before deciding to extract them.
 

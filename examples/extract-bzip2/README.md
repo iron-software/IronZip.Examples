@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/extract-bzip2/>***
+> Full guide: [Extract bzip2](https://ironsoftware.com/csharp/zip/examples/extract-bzip2/)
 
 BZIP2, known as the 'Burrows-Wheeler Block Sort Text Compressor,' is primarily utilized for file compression on Unix and Linux platforms. It's particularly effective for compressing text files. Despite its popularity, extracting from this format can occasionally present challenges. This is typically due to its resource-intensive nature, especially with large BZIP2 files requiring significant memory and CPU resources. In some cases, failures in extraction arise from libraries that do not support nested archives like TAR files.
 

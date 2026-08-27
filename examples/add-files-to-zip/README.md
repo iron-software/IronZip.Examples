@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/add-files-to-zip/>***
+> Full guide: [Add files to zip](https://ironsoftware.com/csharp/zip/examples/add-files-to-zip/)
 
 When managing multiple ZIP archives, adding new files typically involves a laborious process: you extract the contents of the archive, include the new files, and then re-compress everything back into a new ZIP. This method is time-intensive and inefficient.
 

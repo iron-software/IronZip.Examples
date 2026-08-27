@@ -1,6 +1,6 @@
 # Getting Started with IronZIP
 
-***Based on <https://ironsoftware.com/docs/docs/>***
+> Docs: [IronZip documentation](https://ironsoftware.com/csharp/zip/docs/)
 
 
 ## IronZIP: Your Comprehensive Archive Solution for .NET

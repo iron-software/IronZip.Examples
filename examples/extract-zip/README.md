@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/extract-zip/>***
+> Full guide: [Extract zip](https://ironsoftware.com/csharp/zip/examples/extract-zip/)
 
 ZIP is a compression format used to consolidate multiple files and directories into a single file, usually with a '.zip' extension. This format is especially useful for reducing file size and organizing data, making it ideal for tasks like software distribution, file sharing, and data backup.
 

@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/extract-gzip/>***
+> Full guide: [Extract gzip](https://ironsoftware.com/csharp/zip/examples/extract-gzip/)
 
 GZIP (GNU ZIP) is widely used in Unix-like environments as a standard compression utility to reduce file size and accelerate file transfers. It's optimized for compressing individual files, which then assume a .gz extension and can be easily decompressed. For compressing multiple files, the typical approach is to aggregate them into a TAR archive, which is then compressed, yielding a file with a .tar.gz or .tgz extension.
 
