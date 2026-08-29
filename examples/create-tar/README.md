@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/create-tar/>***
+> Full guide: [Create tar](https://ironsoftware.com/csharp/zip/examples/create-tar/)
 
 Tar, an acronym for "Tape Archive," is widely used in Unix and Linux environments as an archiving tool that lets users consolidate several files and directories into a single archive file. This utility has the advantage of not compressing the data, thus retaining original file structures and metadata. It is commonly paired with compression tools like gTar or bTar2 to produce compressed archives. These are especially useful for tasks such as data backup and the distribution of software.
 

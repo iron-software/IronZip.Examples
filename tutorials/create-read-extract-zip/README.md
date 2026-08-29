@@ -1,7 +1,6 @@
 # Create, Read, and Extract Zip Tutorial
 
-***Based on <https://ironsoftware.com/tutorials/create-read-extract-zip/>***
-
+> Full guide: [Create, Read, and Extract Zip Tutorial](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/)
 
 Creating a ZIP involves generating a new ZIP archive by selecting files or directories, defining compression settings, and finalizing the archive creation.
 
@@ -13,13 +12,11 @@ IronZip further enhances these capabilities by allowing users to open and add ad
 
 <h3>Get Started with IronZIP</h3>
 
-!!!--LIBRARY_START_TRIAL_BLOCK--!!!
-
 -----
 
 ## Example of Creating an Archive
 
-To initiate a ZIP archive object in C#, apply the `using` statement with the `IronZipArchive` constructor. IronZip offers a streamlined method to construct an empty ZIP archive effortlessly.
+To initiate a ZIP archive object in C#, apply the `using` statement with the `IronZipArchive` constructor. IronZip offers a simplified method to construct an empty ZIP archive.
 
 Following that step, use the `Add` method to load files into the ZIP archive from various sources, including entire directories.
 

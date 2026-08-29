@@ -1,4 +1,4 @@
-***Based on <https://ironsoftware.com/examples/create-gzip/>***
+> Full guide: [Create gzip](https://ironsoftware.com/csharp/zip/examples/create-gzip/)
 
 GZIP, known fully as 'GNU Zip,' is a critical file compression tool primarily used in Unix and Linux environments. This utility greatly reduces the size of files for enhanced storage and improved data transfer speeds through the use of the GZIP compression algorithm. Files compressed with this method are typically tagged with a '.gz' extension and can be easily decompressed to revert to their initial format.
 
@@ -31,4 +31,4 @@ For more in-depth information on acceptable file types, refer to the full docume
 
 To conclude, we export the archive using the `SaveAs` method and designate the file name as `output.tgz`. It's crucial to remember that because we incorporated a TAR archive within our GZIP archive, the output file extension mirrors both formats, hence appearing as `.tgz`.
 
-<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Delve into our comprehensive guide on creating and extracting ZIP files.</a>
+<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Read the guide on creating and extracting ZIP files.</a>
