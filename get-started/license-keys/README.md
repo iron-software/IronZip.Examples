@@ -1,6 +1,6 @@
 # Utilizing IronZIP License Keys
 
-> Full guide: [Utilizing IronZIP License Keys](https://ironsoftware.com/get-started/license-keys/)
+> Full guide: [Utilizing IronZIP License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/)
 
 
 ## Obtaining a License Key
