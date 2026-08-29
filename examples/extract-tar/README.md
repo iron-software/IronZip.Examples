@@ -1,4 +1,4 @@
-> Full guide: [Extract tar](https://ironsoftware.com/csharp/zip/examples/extract-tar/)
+> Full guide: [Extract tar](https://ironsoftware.com/csharp/zip/examples/extract-tar/?utm_source=github)
 
 TAR files are widely acknowledged for their ability to consolidate numerous files and directories into a single archive while also compressing them. However, extracting these archives can prove challenging, especially because they often integrate with GZIP and BZIP2 formats. Yet, using the capabilities of IronZIP, one can utilize the **IronTarArchive** class for extracting TAR contents efficiently, thereby managing multiple compression layers within a unified library framework.
 
@@ -16,4 +16,4 @@ Initially, integrate the **IronZip** namespace into your project to tap into its
 
 This method efficiently decompresses the contents from a TAR file into a targeted directory. You need to provide the complete path of the TAR file as the first argument. The second argument should specify the target directory where the extracted files will be stored.
 
-[Learn to Create, Read, and Extract ZIP Files](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/){.code_content__related-link__doc-cta-link}
+[Learn to Create, Read, and Extract ZIP Files](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github){.code_content__related-link__doc-cta-link}

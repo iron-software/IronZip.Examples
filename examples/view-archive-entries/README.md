@@ -1,4 +1,4 @@
-> Full guide: [View archive entries](https://ironsoftware.com/csharp/zip/examples/view-archive-entries/)
+> Full guide: [View archive entries](https://ironsoftware.com/csharp/zip/examples/view-archive-entries/?utm_source=github)
 
 When working with archive files, developers often find it beneficial to inspect archive contents without fully extracting them first. This is particularly useful when simply confirming the presence of specific entries, as full extraction can sometimes be resource-intensive. IronZIP provides capabilities that allow you to preview the contents inside an archive, which enhances efficiency and enables quick verification and inspection of files before deciding to extract them.
 
@@ -25,6 +25,6 @@ Once the ZIP file is loaded, employ the capabilities of **IronZipArchive** to ac
 
 #### Entry Attributes
 
-Each **Entry** object encompasses a set of properties such as **name**, **size**, **version**, along with additional attributes like **comments** and the encryption methodology used for its creation. This example demonstrates iterating over this list with a for loop, printing the names of all entries, which highlights the practicality of viewing contents without the need for extraction. For further details on properties available in the **Entry** class, you can refer to [this page](https://ironsoftware.com/csharp/zip/object-reference/api/IronZip.Entry.html).
+Each **Entry** object encompasses a set of properties such as **name**, **size**, **version**, along with additional attributes like **comments** and the encryption methodology used for its creation. This example demonstrates iterating over this list with a for loop, printing the names of all entries, which highlights the practicality of viewing contents without the need for extraction. For further details on properties available in the **Entry** class, you can refer to [this page](https://ironsoftware.com/csharp/zip/object-reference/api/IronZip.Entry.html?utm_source=github).
 
-<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Discover How to Create, Read & Extract ZIP Files Using IronZip</a>
+<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github" class="code_content__related-link__doc-cta-link">Discover How to Create, Read & Extract ZIP Files Using IronZip</a>

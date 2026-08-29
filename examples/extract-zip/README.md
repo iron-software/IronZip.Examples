@@ -1,4 +1,4 @@
-> Full guide: [Extract zip](https://ironsoftware.com/csharp/zip/examples/extract-zip/)
+> Full guide: [Extract zip](https://ironsoftware.com/csharp/zip/examples/extract-zip/?utm_source=github)
 
 ZIP is a compression format used to consolidate multiple files and directories into a single file, usually with a '.zip' extension. This format is especially useful for reducing file size and organizing data, making it ideal for tasks like software distribution, file sharing, and data backup.
 
@@ -18,4 +18,4 @@ Initially, incorporate the `IronZip` namespace to employ its functionalities. Ne
 
 This function performs the extraction by taking two parameters: the first is the path to the ZIP file from which contents are to be extracted, and the second is the target directory for the extracted files. It's important to note that the path to the ZIP file needs to be specified absolutely.
 
-<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Learn to Create and Extract ZIP Files with IronZip</a>
+<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github" class="code_content__related-link__doc-cta-link">Learn to Create and Extract ZIP Files with IronZip</a>

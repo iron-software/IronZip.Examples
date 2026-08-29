@@ -1,4 +1,4 @@
-> Full guide: [Access protected zip](https://ironsoftware.com/csharp/zip/examples/access-protected-zip/)
+> Full guide: [Access protected zip](https://ironsoftware.com/csharp/zip/examples/access-protected-zip/?utm_source=github)
 
 ZIP archives are a popular method for compressing several files into a single, shareable package. Occasionally, ZIP files containing confidential data might be accidentally sent to the wrong people. Thus, the ability to encrypt and decrypt files safely according to accepted security standards becomes crucial in ZIP utilities.
 
@@ -22,6 +22,6 @@ First, include the `IronZip` namespace in your project. Then, create an instance
 
 ### Encrypt an Existing ZIP File
 
-With the `IronZipArchive` class, not only can you access encrypted ZIPs, but you can also secure them using a choice of encryption methods. Begin by including the `IronZip.Enum` to utilize various encryption standards. Use the `Encrypt` function with a password and an encryption method to secure the file. `EncryptionMethods.AES256` is the strongest of the available options. Confirm your work by re-accessing the newly encrypted ZIP with the password. For details on available encryption options, visit [IronZip Enum EncryptionMethods documentation](https://ironsoftware.com/csharp/zip/object-reference/api/IronZip.Enum.EncryptionMethods.html).
+With the `IronZipArchive` class, not only can you access encrypted ZIPs, but you can also secure them using a choice of encryption methods. Begin by including the `IronZip.Enum` to utilize various encryption standards. Use the `Encrypt` function with a password and an encryption method to secure the file. `EncryptionMethods.AES256` is the strongest of the available options. Confirm your work by re-accessing the newly encrypted ZIP with the password. For details on available encryption options, visit [IronZip Enum EncryptionMethods documentation](https://ironsoftware.com/csharp/zip/object-reference/api/IronZip.Enum.EncryptionMethods.html?utm_source=github).
 
-[Creating, reading, and extracting ZIP files with IronZip](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/)
+[Creating, reading, and extracting ZIP files with IronZip](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github)

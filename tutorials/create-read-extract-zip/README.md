@@ -1,6 +1,6 @@
 # Create, Read, and Extract Zip Tutorial
 
-> Full guide: [Create, Read, and Extract Zip Tutorial](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/)
+> Full guide: [Create, Read, and Extract Zip Tutorial](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github)
 
 Creating a ZIP involves generating a new ZIP archive by selecting files or directories, defining compression settings, and finalizing the archive creation.
 
