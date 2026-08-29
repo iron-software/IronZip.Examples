@@ -38,11 +38,11 @@
 
 The resources below carry the detail and worked examples:
 
-  * **[Tutorials](https://ironsoftware.com/csharp/zip/tutorials/?utm_source=github)**: Comprehensive guides to get you started on building your first ZIP-managing application.
+  * **[Tutorials](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Comprehensive guides to get you started on building your first ZIP-managing application.
 
   * **[Code Examples](https://ironsoftware.com/csharp/zip/examples/create-zip/?utm_source=github)**: Direct, usable code samples for frequent tasks.
 
-  * **[How-To Guides](https://ironsoftware.com/csharp/zip/how-to/license-keys/?utm_source=github)**: Targeted instructions tailored to help you tackle specific challenges.
+  * **[How-To Guides](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Targeted instructions tailored to help you tackle specific challenges.
 
   * **[Demonstrations](https://ironsoftware.com/csharp/zip/docs/?utm_source=github#booking-demo)**: Demonstrations that highlight IronZIP’s capabilities and performance.
 
@@ -132,11 +132,11 @@ using (var archive = new IronZipArchive())
 
 Enhance your skills and knowledge with our detailed resources:
 
-  * **[Step-by-Step Tutorials](https://ironsoftware.com/csharp/zip/tutorials/?utm_source=github)**: Guided tutorials to kickstart your first ZIP application.
+  * **[Step-by-Step Tutorials](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Guided tutorials to kickstart your first ZIP application.
   
   * **[Code Samples](https://ironsoftware.com/csharp/zip/examples/create-zip/?utm_source=github)**: Ready-to-use code snippets for frequently needed functions.
   
-  * **[How-To Instructions](https://ironsoftware.com/csharp/zip/how-to/license-keys/?utm_source=github)**: Step-by-step guides to address specific programming challenges.
+  * **[How-To Instructions](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Step-by-step guides to address specific programming challenges.
   
   * **[Live Demos](https://ironsoftware.com/csharp/zip/docs/?utm_source=github#booking-demo)**: Interactive demonstrations that explain the functionalities of IronZIP.
   
@@ -172,11 +172,11 @@ using (var archive = new IronZipArchive())
 
 Enhance your expertise with our detailed documentation and varied examples:
 
-  * **[Tutorials](https://ironsoftware.com/csharp/zip/tutorials/?utm_source=github)**: Comprehensive walkthroughs that guide you through creating your initial ZIP application.
+  * **[Tutorials](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Comprehensive walkthroughs that guide you through creating your initial ZIP application.
 
   * **[Code Examples](https://ironsoftware.com/csharp/zip/examples/create-zip/?utm_source=github)**: Useful code samples tailored for common functionalities.
 
-  * **[How-To Guides](https://ironsoftware.com/csharp/zip/how-to/license-keys/?utm_source=github)**: Targeted, practical instructions focused on addressing distinct challenges.
+  * **[How-To Guides](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)**: Targeted, practical instructions focused on addressing distinct challenges.
 
   * **[Demo](https://ironsoftware.com/csharp/zip/docs/?utm_source=github#booking-demo)**: Illustrative guides that reveal the inner workings and capabilities of IronZIP.
 

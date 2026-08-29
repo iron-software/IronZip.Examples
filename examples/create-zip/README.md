@@ -29,4 +29,4 @@ For a detailed rundown of all supported file types that can be added, please vie
 
 Conclude by committing your changes to the archive and exporting it using the `SaveAs` method, identified by the filename `'output.zip'`.
 
-[Explore how to Read and Extract ZIP Files in C#](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip?utm_source=github)
+[Explore how to Read and Extract ZIP Files in C#](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github)

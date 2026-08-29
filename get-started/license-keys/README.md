@@ -7,7 +7,7 @@
 
 To deploy projects using IronZIP without any limitations or watermarks, obtaining a license key is essential.
 
-You may [purchase a license key here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) or opt for a [free trial key that lasts for 30 days](https://ironsoftware.com/trial-license?utm_source=github).
+You may [purchase a license key here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) or opt for a [free trial key that lasts for 30 days](https://ironsoftware.com/csharp/zip/?utm_source=github#trial-license).
 
 --------------------------------------------------------------------------------
 
@@ -99,6 +99,6 @@ Begin your work with IronZIP by engaging with our detailed tutorial on [How to G
 
 ## Assistance and Support
 
-For deployment in live projects, a valid license—either purchased or trial—is required. You can [get your license here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) and access your trial at [this link](https://ironsoftware.com/trial-license?utm_source=github). A wealth of resources, including tutorials, licensing information, and extensive documentation, is available in our [IronZIP portal](https://ironsoftware.com/csharp/zip/?utm_source=github).
+For deployment in live projects, a valid license—either purchased or trial—is required. You can [get your license here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) and access your trial at [this link](https://ironsoftware.com/csharp/zip/?utm_source=github#trial-license). A wealth of resources, including tutorials, licensing information, and extensive documentation, is available in our [IronZIP portal](https://ironsoftware.com/csharp/zip/?utm_source=github).
 
 For any queries, please contact <support@ironsoftware.com>.

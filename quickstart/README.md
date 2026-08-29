@@ -143,7 +143,7 @@ class Program
 
 ## Licenses and Support Services
 
-**IronZIP** requires a purchase, but you can start with a free trial by acquiring a license [here](https://ironsoftware.com/csharp/zipcode/trial-license?utm_source=github).
+**IronZIP** requires a purchase, but you can start with a free trial by acquiring a license [here](https://ironsoftware.com/csharp/zip/?utm_source=github#trial-license).
 
 For detailed information about Iron Software, explore our [homepage](https://ironsoftware.com/?utm_source=github).
 For further assistance and questions, [contact our expert team](https://ironsoftware.com/?utm_source=github#live-chat-support).
