@@ -5,7 +5,7 @@
 
 ## IronZIP: Your Comprehensive Archive Solution for .NET
 
-**IronZIP** stands as a robust archive compression and decompression tool from Iron Software, supporting formats such as ZIP, TAR, GZIP, and BZIP2.
+**IronZIP** stands as an archive compression and decompression tool from Iron Software, supporting formats such as ZIP, TAR, GZIP, and BZIP2.
 
 ### Comprehensive C# Library for Managing Archives
 

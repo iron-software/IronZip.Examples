@@ -1,6 +1,6 @@
 > Full guide: [Create zip](https://ironsoftware.com/csharp/zip/examples/create-zip/)
 
-The ZIP format is pivotal in archiving and file compression, merging multiple files and directories into a single file that typically carries a `.zip` suffix. This format is extensively employed for efficient data management, including backups, distributing software, and sharing files. However, manually handling multiple ZIP files or creating these archives manually can be laborious and error-prone. Leveraging IronZip simplifies this process by automating these operations and enhancing efficiency, enabling you to generate an archive in just a few lines of code.
+The ZIP format is pivotal in archiving and file compression, merging multiple files and directories into a single file that typically carries a `.zip` suffix. This format is extensively employed for efficient data management, including backups, distributing software, and sharing files. However, manually handling multiple ZIP files or creating these archives manually can be laborious and error-prone. Using IronZip simplifies this process by automating these operations and enhancing efficiency, enabling you to generate an archive in just a few lines of code.
 
 ```html
 <div class="examples__featured-snippet">

@@ -2,7 +2,7 @@
 
 When working with archive files, developers often find it beneficial to inspect archive contents without fully extracting them first. This is particularly useful when simply confirming the presence of specific entries, as full extraction can sometimes be resource-intensive. IronZIP provides capabilities that allow you to preview the contents inside an archive, which enhances efficiency and enables quick verification and inspection of files before deciding to extract them.
 
-Here, we will delve into how to employ the **Entry** class in conjunction with the **IronZipArchive** to generate and display a list of the entries in an archive without needing to extract them first.
+Here, we will look at how to employ the **Entry** class in conjunction with the **IronZipArchive** to generate and display a list of the entries in an archive without needing to extract them first.
 
 <div class="examples__featured-snippet">
     <h2>Preview Archive Entries using C&num;</h2>

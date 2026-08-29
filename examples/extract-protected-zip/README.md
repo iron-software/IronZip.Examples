@@ -1,6 +1,6 @@
 > Full guide: [Extract protected zip](https://ironsoftware.com/csharp/zip/examples/extract-protected-zip/)
 
-IronZIP provides functionality to extract ZIP archives, including those secured with general, AES128, or AES256 encryption. This flexibility makes it straightforward to handle a variety of ZIP files, from minimally secured to heavily encrypted ones. The library is designed to be integrated seamlessly into existing applications or used as a standalone tool for critical operations.
+IronZIP provides functionality to extract ZIP archives, including those secured with general, AES128, or AES256 encryption. This flexibility makes it straightforward to handle a variety of ZIP files, from minimally secured to heavily encrypted ones. The library is designed to be integrated into existing applications or used as a standalone tool for critical operations.
 
 
 <div class="examples__featured-snippet">

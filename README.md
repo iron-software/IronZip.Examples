@@ -8,7 +8,7 @@
 
 ##### IronZIP is a C# library for file compression in .NET applications. It creates, extracts, and manages ZIP files, with AES encryption for protected archives.
 
-### **[Begin Your Journey](https://ironsoftware.com/csharp/zip/docs/) with Three Simple Steps**
+### **[Get Started](https://ironsoftware.com/csharp/zip/docs/) in Three Steps**
 
 #### 1. Installation via NuGet
 
@@ -100,7 +100,7 @@ IronZip is your go-to library in C# for archiving numerous kinds of files, such 
 
 ##### IronZIP compresses files inside .NET applications. Its API creates, extracts, and modifies archives, and applies AES encryption.
 
-### **[Begin Your Journey](https://ironsoftware.com/csharp/zip/docs/) with Three Simple Steps**
+### **[Get Started](https://ironsoftware.com/csharp/zip/docs/) in Three Steps**
 
 #### 1. Install the NuGet Package
 

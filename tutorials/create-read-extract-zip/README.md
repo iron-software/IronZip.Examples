@@ -16,7 +16,7 @@ IronZip further enhances these capabilities by allowing users to open and add ad
 
 ## Example of Creating an Archive
 
-To initiate a ZIP archive object in C#, apply the `using` statement with the `IronZipArchive` constructor. IronZip offers a streamlined method to construct an empty ZIP archive effortlessly.
+To initiate a ZIP archive object in C#, apply the `using` statement with the `IronZipArchive` constructor. IronZip offers a simplified method to construct an empty ZIP archive.
 
 Following that step, use the `Add` method to load files into the ZIP archive from various sources, including entire directories.
 

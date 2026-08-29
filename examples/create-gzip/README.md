@@ -31,4 +31,4 @@ For more in-depth information on acceptable file types, refer to the full docume
 
 To conclude, we export the archive using the `SaveAs` method and designate the file name as `output.tgz`. It's crucial to remember that because we incorporated a TAR archive within our GZIP archive, the output file extension mirrors both formats, hence appearing as `.tgz`.
 
-<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Delve into our comprehensive guide on creating and extracting ZIP files.</a>
+<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Read the guide on creating and extracting ZIP files.</a>
