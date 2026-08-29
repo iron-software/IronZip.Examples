@@ -77,17 +77,16 @@ Here's how to construct a ZIP file using the `AddArchiveEntry` and `SaveAs` meth
 
 ```csharp
 using IronZip;
-using System.IO;
 
 class Program
 {
     static void Main()
     {
         // Create a new ZIP file instance
-        using (var archive = new ZipArchive())
+        using (var archive = new IronZipArchive())
         {
             // Adding a file to the ZIP
-            archive.AddArchiveEntry("example.txt", File.ReadAllBytes("path/to/example.txt"));
+            archive.Add("path/to/example.txt");
 
             // Finalize and save the ZIP file
             archive.SaveAs("archive.zip");
@@ -112,10 +111,8 @@ class Program
         string extractPath = "extracted/";
 
         // Perform extraction
-        using (var archive = new ZipArchive(zipPath))
-        {
-            archive.ExtractArchiveToDirectory(extractPath);
-        }
+        // ExtractArchiveToDirectory is a static method on IronZipArchive
+        IronZipArchive.ExtractArchiveToDirectory(zipPath, extractPath);
     }
 }
 ```
@@ -126,17 +123,16 @@ To add more files to an already existing ZIP archive, use the `AddArchiveEntry` 
 
 ```csharp
 using IronZip;
-using System.IO;
 
 class Program
 {
     static void Main()
     {
         // Accessing an existing ZIP file
-        using (var archive = new ZipArchive("archive.zip"))
+        using (var archive = new IronZipArchive("archive.zip"))
         {
             // Append another file
-            archive.AddArchiveEntry("anotherfile.txt", File.ReadAllBytes("path/to/anotherfile.txt"));
+            archive.Add("path/to/anotherfile.txt");
 
             // Commit changes to the same ZIP file
             archive.SaveAs("archive.zip");
