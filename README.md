@@ -4,7 +4,7 @@
 
 ### IronZIP: A Powerful C# Toolkit for File Archiving
 
-[![IronZIP NuGet Trial Banner Image](https://ironsoftware.com/iron-nuget-assets/main/IronZIP-readme/nuget-trial-banner.png)](https://ironsoftware.com/csharp/zip/?utm_source=github#trial-license)
+[![IronZIP NuGet Trial Banner Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronZIP-readme/nuget-trial-banner.png)](https://ironsoftware.com/csharp/zip/?utm_source=github#trial-license)
 
 ##### IronZIP is a C# library for file compression in .NET applications. It creates, extracts, and manages ZIP files, with AES encryption for protected archives.
 
@@ -70,7 +70,7 @@ The resources below carry the detail and worked examples:
 
   * **Development Environments**: Optimal for use with Microsoft Visual Studio, JetBrains ReSharper, and Rider.
 
-[![IronZIP Cross Platform Compatibility Support Image](https://ironsoftware.com/iron-nuget-assets/main/IronZIP-readme/cross-platform-compatibility.png)](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)
+[![IronZIP Cross Platform Compatibility Support Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronZIP-readme/cross-platform-compatibility.png)](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)
 
 ### **License Information**
 
@@ -206,7 +206,7 @@ Enhance your expertise with our detailed documentation and varied examples:
 
   * **Development Environments**: Compatible with popular integrated development environments (IDEs) such as Microsoft Visual Studio, as well as Jetbrains ReSharper and Rider.
 
-[![IronZIP Cross-Platform Compatibility Support Image](https://ironsoftware.com/iron-nuget-assets/main/IronZIP-readme/cross-platform-compatibility.png)](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)
+[![IronZIP Cross-Platform Compatibility Support Image](https://raw.githubusercontent.com/iron-software/iron-nuget-assets/main/IronZIP-readme/cross-platform-compatibility.png)](https://ironsoftware.com/csharp/zip/docs/?utm_source=github)
 
 #### IronZIP Compatibility Details
 
