@@ -1,4 +1,4 @@
-> Full guide: [Create tar](https://ironsoftware.com/csharp/zip/examples/create-tar/)
+> Full guide: [Create tar](https://ironsoftware.com/csharp/zip/examples/create-tar/?utm_source=github)
 
 Tar, an acronym for "Tape Archive," is widely used in Unix and Linux environments as an archiving tool that lets users consolidate several files and directories into a single archive file. This utility has the advantage of not compressing the data, thus retaining original file structures and metadata. It is commonly paired with compression tools like gTar or bTar2 to produce compressed archives. These are especially useful for tasks such as data backup and the distribution of software.
 
@@ -23,10 +23,10 @@ To begin, we need to import the `IronZip` namespace, which allows us to use its 
 
 Before the archive is sealed, files can be added through the `Add` method by specifying their absolute paths. This utility provides the flexibility to add various file types to your archive, from multimedia files like MP3s and WAVs to documents such as DOCX and PDF, and even other Tar files. This feature also allows for nesting compressed archives within each other.
 
-For a comprehensive list of file formats that can be included in the archive, please visit the documentation [here](https://ironsoftware.com/csharp/zip/).
+For a comprehensive list of file formats that can be included in the archive, please visit the documentation [here](https://ironsoftware.com/csharp/zip/?utm_source=github).
 
 ### Saving and Exporting it
 
 The archive is saved and finalized using the `SaveAs` method, with the file being named `output.tar`.
 
-<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/" class="code_content__related-link__doc-cta-link">Discover More in Our Zip File Creation & Extraction Guide</a>
+<a href="https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github" class="code_content__related-link__doc-cta-link">Discover More in Our Zip File Creation & Extraction Guide</a>

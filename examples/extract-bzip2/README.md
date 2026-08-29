@@ -1,4 +1,4 @@
-> Full guide: [Extract bzip2](https://ironsoftware.com/csharp/zip/examples/extract-bzip2/)
+> Full guide: [Extract bzip2](https://ironsoftware.com/csharp/zip/examples/extract-bzip2/?utm_source=github)
 
 BZIP2, known as the 'Burrows-Wheeler Block Sort Text Compressor,' is primarily utilized for file compression on Unix and Linux platforms. It's particularly effective for compressing text files. Despite its popularity, extracting from this format can occasionally present challenges. This is typically due to its resource-intensive nature, especially with large BZIP2 files requiring significant memory and CPU resources. In some cases, failures in extraction arise from libraries that do not support nested archives like TAR files.
 
@@ -18,4 +18,4 @@ Utilizing the IronZIP namespace in any project can enhance file handling capabil
 
 This operation is not only efficient but also secure. Developers need to ensure that the file name includes both the original file extension and the `.bz2` suffix, due to the deletion of the file extension during the compression phase, which is also stripped away when extracting.
 
-[Learn to Create, Read, and Extract ZIP Files with IronZip](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/)
+[Learn to Create, Read, and Extract ZIP Files with IronZip](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip/?utm_source=github)

@@ -1,19 +1,19 @@
 # Utilizing IronZIP License Keys
 
-> Full guide: [Utilizing IronZIP License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/)
+> Full guide: [Utilizing IronZIP License Keys](https://ironsoftware.com/csharp/barcode/get-started/license-keys/?utm_source=github)
 
 
 ## Obtaining a License Key
 
 To deploy projects using IronZIP without any limitations or watermarks, obtaining a license key is essential.
 
-You may [purchase a license key here](https://ironsoftware.com/csharp/zip/licensing/) or opt for a [free trial key that lasts for 30 days](https://ironsoftware.com/trial-license).
+You may [purchase a license key here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) or opt for a [free trial key that lasts for 30 days](https://ironsoftware.com/trial-license?utm_source=github).
 
 --------------------------------------------------------------------------------
 
 ## Step 1: Acquire the Newest IronZIP Version
 
-[Download the most recent IronZIP version from its official source](https://ironsoftware.com/csharp/zip/).
+[Download the most recent IronZIP version from its official source](https://ironsoftware.com/csharp/zip/?utm_source=github).
 
 ## Step 2: Implementing Your License Key
 
@@ -45,7 +45,7 @@ Issues exist with IronZIP versions before [2024.3.3](https://www.nuget.org/packa
 - **ASP.NET** projects
 - **.NET Framework version >= 4.6.2**
 
-Your `Web.config` file might not correctly apply the license key. See this article for assistance: ['Setting License Key in Web.config'](https://ironsoftware.com/csharp/zip/troubleshooting/license-key-web.config/).
+Your `Web.config` file might not correctly apply the license key. See this article for assistance: ['Setting License Key in Web.config'](https://ironsoftware.com/csharp/zip/troubleshooting/license-key-web.config/?utm_source=github).
 
 Always check if `IronZip.License.IsLicensed` returns `true` to confirm licensing.
 
@@ -93,12 +93,12 @@ A return of **True** signals an active, valid key, while **False** indicates an 
 
 ## Step 4: Starting Your Project with IronZIP
 
-Begin your work with IronZIP by engaging with our detailed tutorial on [How to Get Started with IronZip](https://ironsoftware.com/csharp/zip/docs/). This guide provides essential instructions and tips for first-time users.
+Begin your work with IronZIP by engaging with our detailed tutorial on [How to Get Started with IronZip](https://ironsoftware.com/csharp/zip/docs/?utm_source=github). This guide provides essential instructions and tips for first-time users.
 
 --------------------------------------------------------------------------------
 
 ## Assistance and Support
 
-For deployment in live projects, a valid license—either purchased or trial—is required. You can [get your license here](https://ironsoftware.com/csharp/zip/licensing/) and access your trial at [this link](https://ironsoftware.com/trial-license). A wealth of resources, including tutorials, licensing information, and extensive documentation, is available in our [IronZIP portal](https://ironsoftware.com/csharp/zip/).
+For deployment in live projects, a valid license—either purchased or trial—is required. You can [get your license here](https://ironsoftware.com/csharp/zip/licensing/?utm_source=github) and access your trial at [this link](https://ironsoftware.com/trial-license?utm_source=github). A wealth of resources, including tutorials, licensing information, and extensive documentation, is available in our [IronZIP portal](https://ironsoftware.com/csharp/zip/?utm_source=github).
 
 For any queries, please contact <support@ironsoftware.com>.

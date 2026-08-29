@@ -1,4 +1,4 @@
-> Full guide: [Create zip](https://ironsoftware.com/csharp/zip/examples/create-zip/)
+> Full guide: [Create zip](https://ironsoftware.com/csharp/zip/examples/create-zip/?utm_source=github)
 
 The ZIP format is pivotal in archiving and file compression, merging multiple files and directories into a single file that typically carries a `.zip` suffix. This format is extensively employed for efficient data management, including backups, distributing software, and sharing files. However, manually handling multiple ZIP files or creating these archives manually can be laborious and error-prone. Using IronZip simplifies this process by automating these operations and enhancing efficiency, enabling you to generate an archive in just a few lines of code.
 
@@ -23,10 +23,10 @@ Begin by importing the `IronZip` namespace to access the functionality of the li
 
 Before committing to saving, inject files into your archive using the `Add` method. This allows for the addition of various file types — from images to textual documents (like DOCX and PDF), and even audio (MP3, WAV), including other ZIP files for nested archiving.
 
-For a detailed rundown of all supported file types that can be added, please view the detailed documentation [here](https://ironsoftware.com/csharp/zip/).
+For a detailed rundown of all supported file types that can be added, please view the detailed documentation [here](https://ironsoftware.com/csharp/zip/?utm_source=github).
 
 ### Saving and Exporting
 
 Conclude by committing your changes to the archive and exporting it using the `SaveAs` method, identified by the filename `'output.zip'`.
 
-[Explore how to Read and Extract ZIP Files in C#](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip)
+[Explore how to Read and Extract ZIP Files in C#](https://ironsoftware.com/csharp/zip/tutorials/create-read-extract-zip?utm_source=github)
